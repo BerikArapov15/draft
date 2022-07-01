@@ -1,0 +1,375 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* !HEADER START */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+
+.header_place {
+    width: 1200px;
+    height: 26px;
+    background: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_right {
+    display: flex;
+    list-style-type: none;
+}
+
+.header_left {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding-left: 22px;
+}
+
+.header_logo {
+    width: 184px;
+    height: 31px;
+    margin-top: 20px;
+}
+
+.header_catalogy {
+    margin-top: -34px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background: #0C54A1;
+    margin-left: 236px;
+}
+
+.header_catalogy p {
+    width: 54px;
+    height: 19px;
+    color: #EEEEEE;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.header_search {
+    width: 491px;
+    height: 40px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left: 369px;
+    margin-top: -40px;
+}
+
+.header_search p {
+    width: 207px;
+    height: 19px;
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+.header_search_inner {
+    width: 90px;
+    height: 40px;
+    background: #E5E5E5;
+    margin-left: 770px;
+    margin-top: -40px;
+    border-radius: 5px;
+}
+
+.header_search_inner p {
+    Width: 39px;
+    Height: 19px;
+    font-family: Roboto Condensed;
+    line-height: 19px;
+    margin-left: 12px;
+    padding: 10px;
+}
+
+.header_contacts {
+    margin-inline-start: 118px;
+    margin-top: -19px;
+}
+
+.header_text {
+    margin-left: -890px;
+    margin-top: 8px;
+}
+
+.header_computers {
+    font-family: Roboto;
+    width: 385px;
+    height: 14px;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: -3px;
+    line-height: 14px;
+}
+
+/* !HEADER END*/
+
+/* !SECTION START */
+.section_category {
+    position: absolute;
+    width: 270px;
+    height: 550px;
+    left: 117px;
+    top: 182px;
+    background: url(../assets/images/Категории.png);
+}
+
+.section_game_photo {
+    position: absolute;
+    width: 904px;
+    height: 248px;
+    left: 293px;
+    top: -9px;
+    background: url(../assets/images/game_photo.png);
+}
+
+.section_text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 408px;
+}
+
+.section_photo_inner {
+    width: 142.19px;
+    height: 159.6px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18px;
+}
+
+.section_pricing {
+    position: absolute;
+    width: 270px;
+    height: 624.65px;
+    left: -317px;
+    top: 600px;
+    background: url(../assets/images/photo_pricing.png);
+}
+
+.section_descr {
+    position: absolute;
+    width: 904px;
+    height: 135px;
+    left: 310px;
+    top: 85px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #494949;
+}
+
+.section_more {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    background: #E6E6E6;
+    margin-left: 308px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.section_more p {
+    margin-left: 36px;
+    padding-top: 10px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #62656A;
+}
+
+.section_tovar {
+    width: 227px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 52px;
+    margin-left: -345px;
+}
+
+.section_pagination {
+    width: 291px;
+    height: 47px;
+    margin-top: -17px;
+    margin-left: 281px;
+    background: url(../assets/images/pagination.png);
+}
+
+.section_tovar_inner {
+    display: flex;
+    margin-top: 1036px;
+    margin-left: 397px;
+    flex-wrap: wrap;
+}
+
+.section_tovar_inner2 {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 1px;
+}
+
+.section_tovar_inner3 {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 1px;
+}
+
+.section_tovar_inner4 {
+    display: flex;
+    margin-top: 18px;
+    margin-left: 1px;
+}
+
+/* !SECTION END */
+
+/* ! SECTION 2 START */
+
+.section2_container {
+    width: 904px;
+    height: 207px;
+}
+
+.section2_sales {
+    width: 904px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-left: 403px;
+    margin-top: 27px;
+}
+
+.section2_img {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.footer_container {
+    width: 1600px;
+    height: 497px;
+    background: #0C54A1;
+}
+
+.footer_text1 {
+    width: 200px;
+    height: 202px;
+    font-family: 'Reem Kufi';
+    font-weight: 600;
+    line-height: 27px;
+    list-style-type: none;
+    color: #FFFFFF;
+    margin-left: 145px;
+    margin-top: 32px;
+    padding-top: 35px;
+}
+
+.footer_text2 {
+    width: 200px;
+    height: 202px;
+    font-family: 'Reem Kufi';
+    font-weight: 600;
+    line-height: 27px;
+    list-style-type: none;
+    color: #FFFFFF;
+    margin-left: 384px;
+    margin-top: -218px;
+    padding-top: 36px;
+}
+
+.footer_text3 {
+    width: 200px;
+    height: 202px;
+    font-family: 'Reem Kufi';
+    font-weight: 600;
+    line-height: 27px;
+    list-style-type: none;
+    color: #FFFFFF;
+    margin-left: 629px;
+    margin-top: -218px;
+    padding-top: 36px;
+}
+
+.footer_text4 {
+    width: 200px;
+    height: 202px;
+    font-family: 'Reem Kufi';
+    font-weight: 600;
+    line-height: 27px;
+    list-style-type: none;
+    color: #FFFFFF;
+    margin-left: 853px;
+    margin-top: -218px;
+    padding-top: 36px;
+}
+
+.footer_text5 {
+    width: 200px;
+    height: 202px;
+    font-family: 'Reem Kufi';
+    font-weight: 600;
+    line-height: 27px;
+    list-style-type: none;
+    color: #FFFFFF;
+    margin-left: 1068px;
+    margin-top: -218px;
+    padding-top: 36px;
+}
+
+.footer_text6 {
+    width: 928px;
+    height: 148px;
+
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 138px;
+    padding-top: 41px;
+    color: #FFFFFF;
+}
+
+.footer_text7 {
+    width: 928px;
+    height: 148px;
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 1096px;
+    color: #FFFFFF;
+    margin-top: -124px;
+    list-style-type: none;
+}
+
+.footer_text8 {
+    width: 703px;
+    height: 28px;
+    font-family: 'Reem Kufi';
+    margin-left: 142px;
+    margin-top: 42px;
+    color: #FFFFFF;
+}
